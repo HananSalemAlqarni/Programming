@@ -5,7 +5,14 @@
         color: white;
         padding: 13px 20px 13px 20px;
         cursor: pointer;
+        transition: opacity 0.15s;
 
+    }
+    .uber_button:hover{
+        opacity: 0.6;
+    }
+    .uber_button:active{
+        opacity: 0.7;
     }
     .amazon_button{
         background-color: rgb(255, 216, 20);
@@ -13,6 +20,16 @@
         padding: 13px 40px 13px 40px;
         border-radius: 40px;
         cursor: pointer;
+        transition: background-color 0.15,
+        color 0.15;
+    }
+    .amazon_button:hover{
+        background-color: rgb(250, 200, 30);
+        color: black;
+    }
+    .amazon_button:active{
+        background-color: rgb(250, 200, 30);
+        color: black;
     }
     .github_button{
         background-color: rgb(46, 164, 79);
@@ -20,6 +37,13 @@
         border: none;
         border-radius: 5px;
         padding: 13px 25px 13px 25px;
+        transition: box-shadow 0.15s;
+    }
+    .github_button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+    .github_button:active{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     }
     .bootstrap_button{
         background-color: rgb(121, 82, 179);
@@ -28,6 +52,15 @@
         padding: 15px 20px 15px 20px;
         border-radius: 10px;
         cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .bootstrap_button:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    .bootstrap_button:active{
+        background-color: blueviolet;
+        color: white;  
     }
     .bootstrap_download_button{
         background-color: white;
@@ -38,6 +71,15 @@
         padding: 15px 20px 15px 20px;
         border-radius: 10px;
         cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .bootstrap_download_button:hover{
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+    .bootstrap_download_button:active{
+        background-color: rgb(108, 117, 125);
+        color: white; 
     }
     .linkdin_button{
      background-color: rgb(10, 102, 194);
@@ -47,7 +89,16 @@
      border-radius: 110px;
      padding: 15px 30px 15px 30px; 
      cursor: pointer;
+     transition: background-color 0.15s;
 
+    }
+    .linkdin_button:hover{
+        background-color: rgb(12, 12, 171);
+        color: white;
+    }
+    .linkdin_button:active{
+        background-color: rgb(12, 12, 171);
+        color: white;
     }
     .linkdin_save_button{
         background-color: white;
@@ -58,9 +109,11 @@
         border-radius: 110px;
         padding: 13px 20px 13px 20px; 
         cursor: pointer;
-
-
-
+        transition: background-color 0.15s;
+    }
+    .linkdin_save_button:hover{
+        border-width: 3px ;
+        background-color: rgba(125, 219, 245, 0.865);
     }
     .link_back{
         color: rgb(0, 113, 133);
@@ -144,7 +197,7 @@
 <p>----------------------------------------------------</p>
 <!-- challenge exercise -->
 <div>
-    <a class="link_back" href="https://www.amazon.sa/ref=nav_logo">
+    <a class="link_back" href="https://www.amazon.sa/ref=nav_logo" target="_blank">
         Back to Amazon
     </a>
     <div>
